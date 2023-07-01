@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Marck+Script&family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.navbar{
+ background-color: #f8f3e8;
+ font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray !important;
+
+
+}
+.nav-link{
+
+  font-weight: 300 !important;
+  color: blueviolet;
+  
+
+}
+.nav-link:hover{
+   border-bottom: 1px solid black;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'roboto';
+  letter-spacing: 3px;
+}
+/* .footer{
+  background: rgb(34,50,195);
+background: linear-gradient(0deg, rgba(34,50,195,1) 2%, rgba(153,30,181,0.8318977249102766) 6%);
+  padding: 25px;
+} */
+.footer a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 24px;
+}
+.footer a:hover{
+  font-size: 2rem;
+  
+  border-bottom: 1px solid brown;
+}
+.footer {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+  padding: 25px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+.col-md-4{
+  background: linear-gradient(-45deg, #2de4f9, #be5c1e, #d6e82e, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+
+}
+@media(max-width:767px)
+{
+  .col-md-4{
+    width: 100%;
+  }
+  .image1{
+    width: 200%;
+  }
+}
+.register{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 70vh;
+}
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+.d-flex flex-column justify-content-center align-items-center{
+  color: #d6e82e;
+}
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.card {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 2rem;
+  background: #f8f3e8;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+.card-img-top{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2;
+}
+.card-title {
+  margin-top: 1rem;
+  font-family: "Kalam", cursive;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #4a4a7d;
+  text-align: center;
+}
+.card-text {
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  color: #5e5e89;
+  text-align: center;
+}
+/* .container-fluid {
+  margin-top:0px;
+
+} */
+.col-md-9
+{
+  margin-top: 100px;
+}
+.filters{
+  margin-top: 100px;
+}
+.container{
+  margin-top: 100px;
+}
+.row contactus{
+  margin-top: 100px;
+}
+
+.navbar-toggler {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.navbar-togler:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.navbar-togler:hover:after {
+  transform: translate(0, 0);
+}
+
+.navbar-togler:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.navbar-togler:hover {
+  outline: 0;
+}
+.containercategory{
+  margin-top:100px;
+}
+.contactus{
+  margin-top: 100px;
+}
+.Aboutus{
+  margin-top: 100px;
+}
+.imageabout{
+  height: 200px;
+  width: 300px;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-togler {
+    padding: 0 40px;
+  }
+}
